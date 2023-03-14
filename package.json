@@ -32,7 +32,8 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "release": "np",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "test": "exit 0"
   },
   "devDependencies": {
     "@builder.io/qwik": "0.21.0",
