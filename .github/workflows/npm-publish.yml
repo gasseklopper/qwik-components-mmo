@@ -1,6 +1,6 @@
 # @format
 
-name: release qwik-components-mmo üackage
+name: release qwik-components-mmo Package
 
 on:
     release:
@@ -25,7 +25,7 @@ jobs:
             - uses: actions/setup-node@v3
               with:
                   node-version: 16
-                  registry-url: ${{secrets.GITHUB_TOKEN}}
+                  registry-url: https://npm.pkg.github.com/
             - run: npm ci
             - run: npm publish
               env:
