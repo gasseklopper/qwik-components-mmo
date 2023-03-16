@@ -1,6 +1,6 @@
 {
 	"name": "@gasseklopper/qwik-components-mmo",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Create a reusable Qwik component library",
 	"main": "./lib/index.qwik.mjs",
 	"qwik": "./lib/index.qwik.mjs",
@@ -380,5 +380,5 @@
 		"url": "https://github.com/gasseklopper/qwik-components-mmo/issues"
 	},
 	"homepage": "https://github.com/gasseklopper/qwik-components-mmo#readme",
-	"package-name": "git+https://oauth2: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@github.com/gasseklopper/qwik-components-mmo.git"
+	"package-name": "git+https://oauth2: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@github.com/gasseklopper/qwik-components-mmo"
 }
